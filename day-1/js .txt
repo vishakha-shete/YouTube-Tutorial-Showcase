@@ -1,0 +1,27 @@
+------------------------------------day-2----------------------------------------------
+ - today i feel sad beacause my js file has been deleted and still i never give up starting from day-2
+
+
+//data types
+//data ka type
+
+harsh       data should be the name
+true        data should be the true
+[]()        data should be the brackets
+{}          data should be the curly brackets
+null        data should be the  null
+undefined   data should be the  undefined
+symbol      data should be the  symbol
+big-int     data should be the bigint 
+      
+
+there are mainly different type of data but the main data types is two
+
+1) primitives-datatype
+2) reference data-type
+
+1) primitives-datatype
+-->primitives are those who made allready we just have to reuse them
+-->
+
+
