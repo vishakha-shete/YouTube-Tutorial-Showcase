@@ -1,3 +1,16 @@
+------------------------------------day-1----------------------------------------------
+//var,let,const - line by line comparison
+
+we have our special name and bank acoount if we want too widraw some cash
+from machine it means atm then matchine needs to have your bank and name 
+so this kind of perpose we use javascript
+
+var***
+
+var a =12;
+var variable exist in all progrom
+
+
 ------------------------------------day-2----------------------------------------------
  - today i feel sad beacause my js file has been deleted and still i never give up starting from day-2
 
