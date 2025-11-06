@@ -6,38 +6,40 @@
 
 // // }
 
-// //while
-// //
-// // start
-// // while(end){
-// //     //code
-// // change
-// // }
+//while
+//
+// start
+// while(end){
+//     //code
+// change
+// }
 
 // //print 1 to 32 stop on 32
-// i = 1;
-// while(i<33){
-//     //code
-//     console.log(i);
-//     i++
+i = 1;
+while(i<33){
+    //code
+    console.log(i);
+    i++
 
-// }
+}
 
 // //do-while-loop
-//  i =1;
-// do{
-//    console.log(i);
-//    i++
-// }
-// while(i<60)
+ i =1;
+do{
+   console.log(i);
+   i++
+}
+while(i<60)
+
 // //print numbers 1 to 59 it works properly
 
-//  i =12;
-// do{
-//    console.log(i);
-//    i++
-// }
-// while(i<2)
+ i =12;
+do{
+   console.log(i);
+   i++
+}
+while(i<2)
+
 // //it will run and do works for a one time gives output as 12
 // //12
 
@@ -46,30 +48,30 @@
 
 // //break 
 // // BREAK IS USED FOR FOR BREAKING THE LOOP
-// for(i=1; i<50; i++){
-//     console.log(i);
-//         if(i === 32){
-//             break;
-//         }
-// }
+for(i=1; i<50; i++){
+    console.log(i);
+        if(i === 32){
+            break;
+        }
+}
 
 
 // // continue
 // //continue hides the given continue element and work towards next
-// for(i=1; i<30; i++){
-//     if(i === 20){
-//         continue;
-//     }
-//     console.log(i);
-// }
+for(i=1; i<30; i++){
+    if(i === 20){
+        continue;
+    }
+    console.log(i);
+}
 
 
 
 // Q .1) print numbers from 1 to 10 using for loop
 
-// for (i=1; i<11; i++){
-//     console.log(i);
-// }
+for (i=1; i<11; i++){
+    console.log(i);
+}
 
 // Q .1) a) print numbers from 1 to 10 using for loop
 
