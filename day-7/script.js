@@ -120,6 +120,15 @@ arr2.forEach(function(val){
 //for each runs the function
 
 
+
+
+
+let nums = [10, 20, 30, 40, 50];
+
+nums.forEach(function(value) {
+    console.log(value * 2);
+});
+
 // 👉 Write a similar program that subtracts 2 from each element in the array and logs the result.
 
 let arr3 = [2,3,4,5,6,7];
