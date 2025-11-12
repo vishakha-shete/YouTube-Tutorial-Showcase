@@ -157,13 +157,26 @@ arr6.forEach(function(val){
     console.log(val/2);
 });
 
+
+
+let fruits2 = ["apple", "banana", "mango"];
+
+fruits2.forEach(function(fruit) {
+    console.log(fruit.toUpperCase());
+});
+
 // 👉 Write a program that adds “ is tasty” after each fruit name and prints it.
 
 let fruits1 = ["apple", "banana", "mango"];
 fruits1.forEach(function(fruit){
-    console.log(fruits1 + "is tasty");
+    console.log(fruit + " is tasty");
 });
 
+let numbers1 = [2, 4, 6, 8];
+
+numbers1.forEach(function(num, index) {
+    console.log(`Index ${index}: ${num*num}`);
+});
 
 
 
