@@ -107,6 +107,66 @@ let newsort3 = sort3.sort(function(v,s){
 })
 console.log(newsort3);
 
+// we are going to learn Map,filter,reduce,find,some,every(intro level)
+
+// map filter reduce
+// whenever we use map ,filter, reduce, for-each, sort they accept function within them 
+
+let arr2 = [1,2,3,4,5];
+
+arr2.forEach(function(val){
+    console.log((val+5));
+});
+//for each runs the function
+
+
+// 👉 Write a similar program that subtracts 2 from each element in the array and logs the result.
+
+let arr3 = [2,3,4,5,6,7];
+arr3.forEach(function(val){
+    console.log(val-2);
+});
+
+// 👉 Write a similar program that add 3 from each element in the array and logs the result.
+ 
+let arr4= [5,6,7,8,9];
+arr4.forEach(function(val){
+    console.log(val+3);
+});
+
+// 👉 Write a similar program that multiply by 2 from each element in the array and logs the result.
+
+let arr5= [10,20,30,40];
+arr5.forEach(function(val){
+    console.log(val * 2);
+});
+
+// 👉 Write a similar program that devide by 3 from each element in the array and logs the result.
+
+let arr6= [10,20,30,40];
+arr6.forEach(function(val){
+    console.log(val/2);
+});
+
+// 👉 Write a program that adds “ is tasty” after each fruit name and prints it.
+
+let fruits1 = ["apple", "banana", "mango"];
+fruits1.forEach(function(fruit){
+    console.log(fruits1 + "is tasty");
+});
+
+
+
+
+
+//  print the sum of all numbers in the array.
+let numbers = [10, 20, 30, 40, 50];
+let sum=0;
+numbers.forEach(function(num){
+    sum += numbers
+});
+console.log("the sum of number is:",sum);
+
 
 //let fruits = ["apple", "banana", "mango", "grapes"];
 // Task: change "banana" to "orange"
