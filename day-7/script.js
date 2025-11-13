@@ -120,9 +120,6 @@ arr2.forEach(function(val){
 //for each runs the function
 
 
-
-
-
 let nums = [10, 20, 30, 40, 50];
 
 nums.forEach(function(value) {
@@ -178,9 +175,6 @@ numbers1.forEach(function(num, index) {
     console.log(`Index ${index}: ${num*num}`);
 });
 
-
-
-
 //  print the sum of all numbers in the array.
 let numbers = [10, 20, 30, 40, 50];
 let sum=0;
@@ -188,6 +182,163 @@ numbers.forEach(function(num){
     sum += numbers
 });
 console.log("the sum of number is:",sum);
+
+
+
+
+//now we are going move forward to map
+// MAP
+//map is only used when u wanted to make new array on the baes of previous array
+//when you see the map create a new array in your mind
+//if we dont use return in array value should seen as a undefined
+//whenever the case come when you have to make one new array and this new arrays holds some value
+//then we map
+
+
+//que.1)
+let vish = [12,13,14,15,6];
+let newvish = vish.map(function(){
+    return 12;
+});
+console.log(newvish);
+//[12,12,12,12,12]
+
+
+//que.2)
+let vish2 = [10,20,30,40,50];
+let newvish2 = vish2.map(function(val){
+    if ( val > 20) return;
+});
+console.log(newvish2);
+
+
+
+//que.3)Double each value
+let num = [2, 4, 6, 8];
+let newnum = num.map(function(val){
+    return (val * 2);
+})
+console.log(newnum);
+// Output: [4, 8, 12, 16]
+
+
+//que.4) Add 10 to each number
+
+let num2 = [5, 10, 15, 20];
+let newnum2 = num2.map(function(val){
+    return (val + 10);
+});
+console.log(newnum2);
+// Output: [15, 20, 25, 30]
+
+
+//que.5)Convert all numbers to strings
+let num3 = [1, 2, 3, 4];
+let newnum3 = num3.map(function(val){
+    return String(val);
+});
+console.log(newnum3);
+// Output: ["1", "2", "3", "4"]
+
+
+//que.6)Square each number
+let num4 = [3, 5, 7, 9];
+let newnum4 = num4.map(function(val){
+    return (val*val);
+});
+console.log(newnum4);
+// Output: [9, 25, 49, 81]
+
+//que.7)Convert all names to uppercase
+ let names = ["vishakha", "vaishnavi", "tanvi"];
+let newnames = names.map(function(val){
+    return val.toUpperCase();
+})
+console.log(newnames);
+// Output: ["VISHAKHA", "PALLU", "TANVI"]
+
+
+//que.8)Get the length of each name
+let friends = ["Vish", "Pallu", "Prashu"];
+let newfriends = friends.map(function(val){
+    return val.length;
+
+})
+console.log(newfriends);
+// Output: [4, 5, 6]
+
+
+
+//que.9)Subtract 5 from each element
+let marks1 = [80, 90, 70, 100];
+let newmarks1 = marks1.map(function(val){
+    return val-5;
+})
+console.log(newmarks1);
+// Output: [75, 85, 65, 95]
+
+
+
+//que.10)Multiply each number by its index
+ let vaishu1 = [10, 20, 30, 40];
+ let newvaishu1 = vaishu1.map(function(val,index){
+    return (val* index);
+ })
+ console.log(newvaishu1);
+// Output: [0, 20, 60, 120]
+
+
+//que.11)Return even/odd label for each number
+let dhruuv = [1, 2, 3, 4, 5];
+let newdhruuv = dhruuv.map(function(val){
+    if (val%2===0){
+      return "even";
+    }
+    else {
+        return "odd";
+    }
+});
+console.log(newdhruuv);
+// Output: ["odd", "even", "odd", "even", "odd"]
+
+
+
+//que.12)Create new array with only first letter capitalized
+let fruits3 = ["apple", "banana", "mango"];
+let newfruits3 = fruits3.map(function (val){
+    return val[0].toUpperCase()+ val.slice(1);
+});
+console.log(newfruits3);
+// Output: ["Apple", "Banana", "Mango"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //let fruits = ["apple", "banana", "mango", "grapes"];
