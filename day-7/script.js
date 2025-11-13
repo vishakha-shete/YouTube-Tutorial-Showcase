@@ -389,7 +389,6 @@ console.log(newwords);
 // initialValue → optional starting value (default: first element)
 
 // que.1)
-
 let acc = [10,20,30,40,50,60];
 let newacc = acc.reduce(function(acc,val){
     return acc +val;
@@ -400,7 +399,6 @@ console.log(newacc);
 
 
 // que.2)
-
 let acc1 = [10, 20, 30, 40];
 let newacc1 = acc1.reduce(function(acc,val){
     return acc+val;
@@ -408,8 +406,9 @@ let newacc1 = acc1.reduce(function(acc,val){
 console.log(newacc1);
 // Output → 100
 
-// que.3)Find the sum of all numbers in the array.
 
+
+// que.3)Find the sum of all numbers in the array.
 let nums2 = [5, 10, 15, 20];
 let newnums2 = nums2.reduce(function(acc,val){
     return acc+val;
@@ -417,12 +416,14 @@ let newnums2 = nums2.reduce(function(acc,val){
 console.log(newnums2);
 // Output → 50
 
+
 // que.4)Find the product of all numbers in the array.
 let numbers2 = [2, 3, 4];
 let newnumbers2 = numbers2.reduce(function(acc,val){
     return acc*(val);
 },1);
 console.log(newnumbers2);
+
 
 
 // que.5)Find the maximum number in the array using reduce().
