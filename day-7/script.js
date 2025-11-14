@@ -476,9 +476,6 @@ let average = newnumes3 / numes3.length;
 console.log(average);
 // Output → 30
 
-
-
-
 //now we are going to learn about the find, some, and every consept in arrays
 //**FIND
 //it accept function within it
