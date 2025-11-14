@@ -434,6 +434,65 @@ let newmarks3 = marks3.reduce(function(acc,val){
 },40)
 console.log(newmarks3);
 
+// que.6)Find the sum of the squares of all numbers in the array.
+let numbers3 = [2, 3, 4];
+let newnumbers3 = numbers3.reduce(function(acc,val){
+    return acc + (val *val);
+},0)
+console.log(newnumbers3);
+// Output → 2² + 3² + 4² = 29
+
+
+
+//que.7)
+let students = [
+    { name: "Vishakha", marks: 85 },
+    { name: "Pallu", marks: 90 },
+    { name: "Prashu", marks: 80 }
+  ];
+let newstudents = students.reduce(function(acc,val){
+    return acc + val.marks;
+},0)
+console.log(newstudents);
+  // Output → 255
+  
+
+//que.8)🧩Count total characters in all strings
+
+let names2 = ["Vish", "Pallu", "Prashu"];
+let newnames2 = names2.reduce(function(acc,val){
+    return acc +val.length;
+},0)
+console.log(newnames2);
+// Output → 15
+
+//que.9) 🧩 Q5 — Find average of numbers
+
+let numes3 = [10, 20, 30, 40, 50];
+let newnumes3 = numes3.reduce(function(acc,val){
+    return  acc + val;
+},0);
+let average = newnumes3 / numes3.length; 
+console.log(average);
+// Output → 30
+
+
+
+
+//now we are going to learn about the find, some, and every consept in arrays
+//**FIND
+//it accept function within it
+
+let arr8 =[1,2,3,4,5,1,6,7,8]
+let newarr8 = arr8.find(function(val){
+    return val === 1 ;
+});
+console.log(newarr8);
+
+
+
+
+
 
 
 
