@@ -3,7 +3,7 @@ var con = document.querySelector("#container")
 var like = document.querySelector("i")
 
 con.addEventListener("dblclick",function(){
-    love.style.transform = 'trandlate (-50%,-50%) scale(1)'
+    love.style.transform = 'translate (-50%,-50%) scale(1)'
 
 })
 
