@@ -34,23 +34,46 @@ console.log("hey4");
 // -if function run function within its parameter its known as parameter function callback
 
 // example-1
-function chalunga(fnc){
-    setTimeout(fnc,Math.floor(Math.random()*10)*1000);
+function chalunga(fnc) {
+    setTimeout(fnc, Math.floor(Math.random() * 10) * 1000);
 }
-chalunga(function(){
+chalunga(function () {
     console.log("hey");
 });
 
 // callbackhell
 // example-2
-function profile(username,cb){
+function profile(username, cb) {
     setTimeout(() => {
-        cb({_id:12122,username,posts:["heyy"] ,age:26,email:"heywihdi@gmail.com"})
+        cb({ _id: 12122, username, posts: ["heyy"], age: 26, email: "heywihdi@gmail.com" })
     }, 3000);
 }
-profile("harsh",function(data){
+profile("harsh", function (data) {
     console.log(data);
-    profile(data._id,function(posts){
-      console.log(posts);  
+    profile(data._id, function (posts) {
+        console.log(posts);
     });
 });
+
+
+// PROMISSES
+
+// -WE create promise which goes from two state to one state 
+// and its gives output as resolve or reject we have to write code for both
+
+new pr = promise(function (resolve, reject) {
+    setTimeout(() => {
+        resolve("harsh");
+        let rn = Math.random(MAth.random) * 10;
+        if (rn > 5) resolve(rn);
+        else reject(rn);
+    }, 3000);
+})
+pr.then(function (val) {
+    console.log(val);
+
+})
+    .catch(function (val) {
+        console.log(val);
+
+    })
