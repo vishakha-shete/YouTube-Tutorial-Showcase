@@ -61,19 +61,17 @@ profile("harsh", function (data) {
 // -WE create promise which goes from two state to one state 
 // and its gives output as resolve or reject we have to write code for both
 
-new pr = promise(function (resolve, reject) {
+let pr = new Promise(function (res, rej) {
     setTimeout(() => {
-        resolve("harsh");
-        let rn = Math.random(MAth.random) * 10;
-        if (rn > 5) resolve(rn);
-        else reject(rn);
+        let rn = Math.floor(Math.random() * 10);
+        if (rn > 5) res("resolved with " + rn);
+        else rej("rejected with ", rn);
     }, 3000);
 })
 pr.then(function (val) {
     console.log(val);
 
-})
-    .catch(function (val) {
+}).catch(function (val) {
         console.log(val);
 
     })
