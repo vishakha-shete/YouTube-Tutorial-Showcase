@@ -1,0 +1,9 @@
+//today i am going to build weather app using html,css,js
+//it shows firstlly a productivity dashboard ts shows the exact date timing and days
+location degree celcies im using each and every topic which i learn till now i use that in this app its shows time audit everything and after clicking on the change theme it can change the theame also
+whenever we click on to-do list it means a task a list we can add task in it and it is local storage base
+//like i add task in it  and close the pannel and reoad the website still i see task is present if we want to remove then we can
+//then added a daily planner in which we can plan a day it can track overall all productivity
+//apart from thhis their is motivational code in which we can featch here one api whenever we open the website we saw a motivatinal qaute at starting
+//whenever we change the theame it reflect on each page  
+//timer also given in which we can manage the time  it has start pause and reset option in which we can set timer for perticular work
