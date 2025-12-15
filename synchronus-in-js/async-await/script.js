@@ -9,11 +9,11 @@ let pr = new Promise(function (res, rej) {
     }, 1000);
 });
 
-async function abcd(){
-    try{
+async function abcd() {
+    try {
         let val = await pr;
         console.log(val);
-    }catch (err){
+    } catch (err) {
         console.log(err);
 
     }
