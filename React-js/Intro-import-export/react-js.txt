@@ -1,0 +1,53 @@
+//Todya i am going to learn about the react js and i want to master the react js like a top software devloper
+//React INTRODUCTION
+
+//wHAT IS REACT JS?
+-->react is a javascript library
+-->which is used to make a ui-> user interface (fronted)
+-->made by meta made in 2013 and it is one of the best 
+---> in between 2012 to 2013 whenever the facebook users uses a more facebook then their is big problem accurs
+---> whenever the notification we have to refresh the webpage then we able to see the notification on the page
+--->then that time came the library called react js react tells us to shift on component based architecture
+--->html,css,js are the essensial
+
+Library-> react is library and library is used to give a feature to the perticular website
+for example :- 
+            *= gsap - gsap is a animation library with the help of gsap we can create a moving animation 
+                  -so if we want to create animations then use gsap
+            - Lenis - lenis is usefull for smooth scrolling in website
+            - React-js = react is used for creating a features on website
+            - so library is used for implementing any one feature in website
+            
+            *= FRAMEWORK : - in framework we cannot make modification in it on big level
+            - NextJS
+            - Angular
+
+
+// let h1 = document.createElement('h1')
+// h1.innerHTML='helloo'
+// console.log(h1);
+// document.body.appendChild(h1);
+
+//learning import and export in react js
+//import means taking 
+//export means giving
+//export is two types -2
+// 1) named - first export is called as named export
+// 2) default - default export is called as each files default
+    // -means each file sending something next 
+    // import and export is most important for es6-version
+
+// EXAMPLE-1    
+// import a from './app.js'
+// console.log(a);
+
+// EXAMPLE-2
+// import user from './app.js'
+// import { arr } from './app.js';
+// console.log(user);
+
+import user from "./app.js";
+import { age } from "./app.js";
+import { arr } from "./app.js";
+
+console.log(age,user,arr);
