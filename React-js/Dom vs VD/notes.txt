@@ -1,0 +1,33 @@
+//today i am steapping forward and learnining about the dom and vd
+//DOM VS VIRTUAL DOM
+//REAL DOM VS VIRTUAL DOM
+
+REAL DOM MEANS THE HTML SKELETON-BASIC STRUCTURE OF HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1></h1>
+             <img src="" alt="">
+             <button>
+             </button>
+        </section>
+    </header>
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+//VIRTUAL DOM
+//virtual dom is a copy of real dom
+in this the modification can done using virtual dom
+//single change can done using virtual dom
+
